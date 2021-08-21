@@ -5,7 +5,7 @@
     "Test Params": {
         "args": "./wrk -t12 -c400 -d30s"
     },
-    "vanilla builds just sending text response": {
+    "vanilla builds | response type = text/plain": {
         "go/fiber": {
             "verions": {
                 "go": "1.17",
