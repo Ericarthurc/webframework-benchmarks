@@ -1,4 +1,4 @@
-### Using `wrk` to benchmark my blog website builds and also bench vanilla builds for fun!
+### Using [wrk](https://github.com/wg/wrk) to benchmark various web frameworks and some of my personal blog site routes
 
 ```json
 {
@@ -26,6 +26,13 @@
                 "warp": "0.3.1"
             },          
             "requests/sec": 779977.38
+        },
+        "go/echo": {
+            "verions": {
+                "go": "1.17",
+                "echo": "4.5.0"
+            },
+            "requests/sec": 513006.20
         },
         "nim/prologue": {
             "verions": {
