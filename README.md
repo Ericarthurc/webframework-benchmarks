@@ -66,10 +66,10 @@
     "blog.wildwooddev.com route: /blog": {
         "go/fiber": {
             "verions": {
-                "go": "1.16",
-                "Fiber": "2.16"
+                "go": "1.17",
+                "Fiber": "2.17"
             },
-            "requests/sec": 5457.74
+            "requests/sec": 5447.74
         },
         "nim/prologue": {
             "verions": {
