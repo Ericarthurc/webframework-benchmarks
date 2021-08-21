@@ -5,7 +5,7 @@
     "Test Params": {
         "args": "./wrk -t12 -c400 -d30s"
     },
-    "vanilla builds | response type = text/plain": {
+    "vanilla builds | response type = text/plain | single route '/'": {
         "go/fiber": {
             "verions": {
                 "go": "1.17",
