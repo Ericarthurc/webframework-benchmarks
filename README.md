@@ -2,8 +2,13 @@
 
 ```json
 {
-    "Test Params": {
+    "test params": {
         "args": "./wrk -t12 -c400 -d30s"
+    },
+    "testing hardware": {
+        "cpu": "intel i9 9900k @4.8ghz",
+        "ram": "32gb ddr4",
+        "gpu": "nvidia 1080",
     },
     "vanilla builds | response type = text/plain | single route '/'": {
         "go/fiber": {
@@ -70,6 +75,13 @@
                 "Fiber": "2.17"
             },
             "requests/sec": 5447.74
+        },
+        "nim/jester": {
+            "verions": {
+                "nim": "1.4.8",
+                "jester": "0.5.0"
+            },      
+            "requests/sec": 4752.14
         },
         "nim/prologue": {
             "verions": {
