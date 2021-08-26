@@ -69,6 +69,16 @@
         }
     },
     "blog.wildwooddev.com route: /blog": {
+        "nim/jester": {
+            "date": "august 25, 2021",
+            "commit": "b2447334cda69add7c699739f0485d3a6e3a9488", 
+            "verions": {
+                "nim": "1.4.8",
+                "jester": "0.5.0"
+            },      
+            "requests/sec": 20507.45,
+            "comments": "rewrote date sort proc with custom date string comparsion, 4x the performance"
+        },
         "go/fiber": {
             "verions": {
                 "go": "1.17",
